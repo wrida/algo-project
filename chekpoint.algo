@@ -1,0 +1,22 @@
+ALGORITHM readSentence
+VAR
+sentence : string
+caracNum,Countwords,vowelNumb : integer
+i : integer
+BEGIN
+Read(sentence);
+
+ caracNum := 0;
+for ( i = 0; i <sentence.length; i++) 
+    caracNum = caracNum + 1;
+    if (sentence[i] == ' ' || sentence[i] == '.')
+           countWords = countWords +1 ;
+    end_if
+   if (sentence[i] == 'a' || sentence[i] == 'e' || sentence[i] == 'i' || sentence[i] == 'o' ||
+     sentence[i] == 'u')
+     vowelNumb = vowelNumb +1 ;
+     end_if
+end_for
+   
+    return wc; 
+END
